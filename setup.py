@@ -6,6 +6,10 @@ setup(
     version='0.0.1',
     description='Lighweight Behaviour Tree',
     packages=[
-        'pybehaviorify'
+        'pybehaviorify',
+        'pybehaviorify.decorators',
+        'pybehaviorify.core',
+        'pybehaviorify.composites',
+        'pybehaviorify.actions',
     ],
 )
